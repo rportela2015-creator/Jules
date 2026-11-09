@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tax-pricing-agent"
+version = "0.1.0"
+description = "Motor de custeio e precificação pós-Reforma Tributária (IBS/CBS/IS/ICMS)."
+authors = ["Sênior Tax Engineer <example@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
